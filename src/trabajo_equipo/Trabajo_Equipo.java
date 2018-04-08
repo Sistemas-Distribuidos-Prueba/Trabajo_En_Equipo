@@ -8,6 +8,7 @@ package trabajo_equipo;
 /**
  *
  * @author lucho
+ Este es el primer cambio
  */
 public class Trabajo_Equipo {
 
