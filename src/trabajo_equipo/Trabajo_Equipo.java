@@ -18,7 +18,12 @@ public class Trabajo_Equipo {
         System.out.println("Este es el cambio de Daniel");
         System.out.println("Este es el cambio de Luis");
         System.out.println("Este es el cambio de Nelson");
-        // TODO code application logic here
+        
+         // Esta Sección es un código simple por Luis Penagos.
+        
+        for(int i = 0; i <= 12; i++){
+	System.out.print("12 * "+ i + " = " + 12 * i + "\n");
+	}
     }
     
 }
