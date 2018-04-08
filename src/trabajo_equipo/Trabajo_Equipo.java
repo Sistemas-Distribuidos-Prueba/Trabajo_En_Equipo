@@ -16,6 +16,7 @@ public class Trabajo_Equipo {
      */
     public static void main(String[] args) {
         System.out.println("Este es el cambio de Daniel");
+        System.out.println("Este es el cambio de Daniel");
         // TODO code application logic here
     }
     
