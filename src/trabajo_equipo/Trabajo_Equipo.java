@@ -17,9 +17,15 @@ public class Trabajo_Equipo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Este es el cambio de Daniel");
-        System.out.println("Este es el cambio de Luis");
-        System.out.println("Este es el cambio de Nelson");
+        
+        // Ejemplo de Temperatura.
+        
+        Scanner sc = new Scanner(System.in);
+        double gradosC, gradosF;
+        System.out.println("Introduce grados Centígrados:");
+        gradosC = sc.nextDouble();
+        gradosF = 32 + (9 * gradosC / 5);
+        System.out.println(gradosC +" ºC = " + gradosF + " ºF");
         
          // Esta Sección es un código simple por Luis Penagos.
         
@@ -31,7 +37,6 @@ public class Trabajo_Equipo {
          
         int numero, exp, digito;
         double binario;
-        Scanner sc = new Scanner(System.in);
 
         do{  
             System.out.print("Introduce un numero entero >= 0: ");
